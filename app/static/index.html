@@ -165,27 +165,75 @@
       </div>
     </section>
 
-    <!-- Model 2 (Placeholder) -->
+    <!-- Model 2 -->
     <section class="card classify-card" id="classify-panel-2">
       <div class="card-header">
         <span class="card-icon">🏷</span>
-        <h2 class="card-title">Model 2 (Pending)</h2>
+        <h2 class="card-title" id="model-2-title">Model 2</h2>
+        <span class="model-tag" id="model-2-tag">external</span>
       </div>
-      <div class="placeholder-state">
-        <div class="placeholder-icon" style="opacity:0.15;">🕒</div>
-        <p>Awaiting teammate integration</p>
+
+      <div id="classify-loading-2" class="loading hidden" style="text-align:center; padding:2rem 0;">
+        <div class="spinner" style="margin:0 auto 10px;"></div>
+        <div style="color:var(--text-muted);font-size:0.85rem;">Querying model…</div>
+      </div>
+
+      <div id="classify-placeholder-2" class="placeholder-state">
+        <div class="placeholder-icon" id="model-2-ph-icon">🕒</div>
+        <p id="model-2-ph-text">Loading configuration…</p>
+      </div>
+
+      <div id="classify-results-2" class="hidden">
+        <div class="verdict-box" id="verdict-box-2" data-cat="unk">
+          <div class="verdict-category" id="verdict-category-2">UNK</div>
+          <div class="verdict-label" id="verdict-label-2">Unknown Event</div>
+          <span class="verdict-conf" id="verdict-conf-2">Confidence: --</span>
+        </div>
+        <div class="prob-bars" id="prob-bars-2"></div>
+        <div class="model-inference-time" id="inference-time-2"></div>
+      </div>
+
+      <div id="classify-error-2" class="hidden">
+        <div class="error-banner" style="margin-top:0;">
+          <span class="error-icon">⚠</span>
+          <span id="error-msg-2"></span>
+        </div>
       </div>
     </section>
 
-    <!-- Model 3 (Placeholder) -->
+    <!-- Model 3 -->
     <section class="card classify-card" id="classify-panel-3">
       <div class="card-header">
         <span class="card-icon">🏷</span>
-        <h2 class="card-title">Model 3 (Pending)</h2>
+        <h2 class="card-title" id="model-3-title">Model 3</h2>
+        <span class="model-tag" id="model-3-tag">external</span>
       </div>
-      <div class="placeholder-state">
-        <div class="placeholder-icon" style="opacity:0.15;">🕒</div>
-        <p>Awaiting teammate integration</p>
+
+      <div id="classify-loading-3" class="loading hidden" style="text-align:center; padding:2rem 0;">
+        <div class="spinner" style="margin:0 auto 10px;"></div>
+        <div style="color:var(--text-muted);font-size:0.85rem;">Querying model…</div>
+      </div>
+
+      <div id="classify-placeholder-3" class="placeholder-state">
+        <div class="placeholder-icon" id="model-3-ph-icon">🕒</div>
+        <p id="model-3-ph-text">Loading configuration…</p>
+      </div>
+
+      <div id="classify-results-3" class="hidden">
+        <div class="verdict-box" id="verdict-box-3" data-cat="unk">
+          <div class="verdict-category" id="verdict-category-3">UNK</div>
+          <div class="verdict-label" id="verdict-label-3">Unknown Event</div>
+          <span class="verdict-conf" id="verdict-conf-3">Confidence: --</span>
+        </div>
+        <div class="prob-bars" id="prob-bars-3"></div>
+        <div class="model-inference-time" id="inference-time-3"></div>
+      </div>
+
+      <div id="classify-error-3" class="hidden">
+        <div class="error-banner" style="margin-top:0;">
+          <span class="error-icon">⚠</span>
+          <span id="error-msg-3"></span>
+        </div>
       </div>
     </section>
 

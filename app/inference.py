@@ -16,8 +16,13 @@ from transformers import (
 )
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODELS_DIR = os.path.join(ROOT, "outputs", "models")
+# APP_DIR is the directory containing this file (works both locally and in Docker)
+APP_DIR    = os.path.dirname(os.path.abspath(__file__))
+# Locally: APP_DIR = .../whoopie/app  → models live at ../outputs/models
+# In Docker: APP_DIR = /app           → models live at /app/outputs/models
+_local_models = os.path.join(APP_DIR, "..", "outputs", "models")
+_docker_models = os.path.join(APP_DIR, "outputs", "models")
+MODELS_DIR = _docker_models if os.path.isdir(_docker_models) else _local_models
 
 L1_WEIGHTS  = os.path.join(MODELS_DIR, "best_aerobert_event_extractor.pt")
 L1_CONFIG   = os.path.join(MODELS_DIR, "event_extractor_config.json")
@@ -74,7 +79,7 @@ def load_models():
         return
 
     # Load Label Mapping dynamically
-    mapping_path = os.path.join(ROOT, "outputs", "models", "id2cat.json")
+    mapping_path = os.path.join(MODELS_DIR, "id2cat.json")
     if os.path.exists(mapping_path):
         with open(mapping_path, "r") as f:
             id2cat = json.load(f)
