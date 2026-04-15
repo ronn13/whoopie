@@ -1,0 +1,3701 @@
+[
+  {
+    "report_idx": 0,
+    "narrative_preview": "Air carrier Captain reported an airborne conflict with a UAS while on departure climb out.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 1,
+    "narrative_preview": "General aviation pilot reported a NMAC with a helicopter approaching from the opposite direction while flying low level through canyons.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 2,
+    "narrative_preview": "Air carrier First Officer reported descending below the glide slope on approach to MMMX; in part due to selecting Level Change mode of the FMC.",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "selecting Level Change mode of the FMC"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 3,
+    "narrative_preview": "Air carrier flight crew reported descent below glidepath on initial approach due to incorrect altimeter setting resulted in a Ground Proximity Warning",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "incorrect altimeter setting resulted in a Ground Proximity Warning"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 4,
+    "narrative_preview": "General aviation pilot reported during final approach for landing they had a near midair collision with another aircraft that entered the traffic patt",
+    "ACTOR": [
+      "The pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 5,
+    "narrative_preview": "General aviation pilot reported they did not follow the assigned obstacle departure procedure which resulted in ATC providing vectors to provide obsta",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 6,
+    "narrative_preview": "Light aircraft cargo pilot reported realizing after the flight that he flew an unauthorized approach into JER airport at night that probably resulted ",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 7,
+    "narrative_preview": "ATC Approach Controller reported descending an aircraft below the MVA resulting in the Controller issuing an immediate turn to avoid the terrain.",
+    "ACTOR": [
+      "ATC",
+      "Approach Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "the Controller issuing an immediate turn to avoid the terrain"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance"
+    ]
+  },
+  {
+    "report_idx": 8,
+    "narrative_preview": "Flight Instructor approaching the VFR pattern reported a NMAC with an enroute VFR aircraft which was not communicating with Tower.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 9,
+    "narrative_preview": "A320 pilot reported while on final approach being advised of helicopter traffic resulting in the pilot receiving an TA and reducing their descent rate",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "the pilot receiving an TA and reducing their descent rate to avoid the traffic"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Air Traffic Control Issued Advisory / Alert"
+    ]
+  },
+  {
+    "report_idx": 10,
+    "narrative_preview": "Air carrier Captain reported receiving a low altitude alert from ATC during approach. Flight crew leveled off then continued approach.",
+    "ACTOR": [
+      "Captain",
+      "ATC",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Speed All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach"
+    ]
+  },
+  {
+    "report_idx": 11,
+    "narrative_preview": "Air carrier Captain reported an aggressive sounding call from ATC during the takeoff roll; nearly causing an unnecessary rejected takeoff.",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 12,
+    "narrative_preview": "SCT Controller reported SNA Tower has closed four times due to evacuation. Reporter stated lack of established procedures to manage the traffic and co",
+    "ACTOR": [
+      "Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Unknown",
+    "TRIGGER": [
+      "closed",
+      "evacuation",
+      "lack",
+      "confusion"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Other / Unknown",
+      "Air Traffic Control Provided Assistance"
+    ]
+  },
+  {
+    "report_idx": 13,
+    "narrative_preview": "Air carrier Dispatcher reported a flight in international airspace was unable to communicate with ATC on the published frequencies. The Dispatcher con",
+    "ACTOR": [
+      "Dispatcher",
+      "ATC",
+      "The"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Overcame Equipment Problem"
+    ]
+  },
+  {
+    "report_idx": 14,
+    "narrative_preview": "Air carrier flight crew departing FWA reported an NMAC with a light aircraft that apparently was not equipped with ADS-B.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "ADS"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 15,
+    "narrative_preview": "Air carrier flight crew reported First Officer descended below assigned altitude on approach resulting in a low altitude alert from ATC.",
+    "ACTOR": [
+      "flight crew",
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "a low altitude alert from ATC"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Provided Assistance",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Became Reoriented",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "General Flight Cancelled / Delayed"
+    ]
+  },
+  {
+    "report_idx": 16,
+    "narrative_preview": "Flight Instructor on final approach reported a NMAC with an aircraft on base leg for the same runway.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 17,
+    "narrative_preview": "Air carrier flight crew reported receiving a low altitude alert from LAX Tower on final approach; even though they felt they were at a safe altitude.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 18,
+    "narrative_preview": "Air carrier pilot reported an airborne conflict with a UAS during initial climb.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Takeoff / Launch; Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Other / Unknown",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 19,
+    "narrative_preview": "Air carrier Captain reported the First Officer saw a UAS near the aircraft during final approach. No evasive action was taken and the flight continued",
+    "ACTOR": [
+      "Captain",
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 20,
+    "narrative_preview": "C172 and PA28-181 flight instructors reported the C172 started takeoff run while the PA28 was on short final resulted in an NMAC requiring evasive act",
+    "ACTOR": [
+      "flight instructors"
+    ],
+    "SYSTEM": [
+      "PA"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "an"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 21,
+    "narrative_preview": "A TRACON Controller reported an aircraft on approach overshot a crossing restriction and descended below the Minimum Vectoring Altitude.",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Crossing Restriction Not Met",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 22,
+    "narrative_preview": "Air carrier flight crew reported an ATC loss of separation while following an aircraft on a visual approach. ATC directed a go around and the flight r",
+    "ACTOR": [
+      "flight crew",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Conflict Airborne Conflict",
+      "Air Traffic Control Separated Traffic",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 23,
+    "narrative_preview": "Part 107 UAS pilot reported possibly flying in a TFR without authorization.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 24,
+    "narrative_preview": "Flight Instructor and student departing a non-towered airport reported they rejected their takeoff and took evasive action to avoid an aircraft depart",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action",
+      "General Flight Cancelled / Delayed"
+    ]
+  },
+  {
+    "report_idx": 25,
+    "narrative_preview": "Flight Instructor conducting a practice approach to a non-towered airport reported a NMAC with a helicopter which overtook them and was not communicat",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "CTAF"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 26,
+    "narrative_preview": "Flight instructor reported while on short final to SAC airport had a near mid air collision with another aircraft 500 feet above them that was also on",
+    "ACTOR": [
+      "Flight instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 27,
+    "narrative_preview": "Part 107 UAS observer reported a UAS was flown in controlled airspace without authorization.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 28,
+    "narrative_preview": "Pilot reported during approach they overshot the approach; lost situational awareness and had a CFTT event. The Tower Controller instructed the pilot ",
+    "ACTOR": [
+      "The",
+      "Tower Controller",
+      "the pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert"
+    ]
+  },
+  {
+    "report_idx": 29,
+    "narrative_preview": "Flight Attendant reported aircraft made a hard landing resulting in injury and maintenance inspection.",
+    "ACTOR": [
+      "Flight Attendant"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "injury and maintenance inspection"
+    ],
+    "OUTCOME": [
+      "Flight Deck / Cabin / Aircraft Event Illness / Injury",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "General Flight Cancelled / Delayed",
+      "General Maintenance Action"
+    ]
+  },
+  {
+    "report_idx": 30,
+    "narrative_preview": "Part 107 UAS pilot reported flying in controlled airspace without authorization.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Takeoff / Launch; Hovering (UAS); Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural FAR",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 31,
+    "narrative_preview": "Recreational / Hobbyist UAS pilot reported flying in a restricted area without authorization.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 32,
+    "narrative_preview": "Air carrier First Officer reported an NMAC as alerted by a TCAS RA with a helicopter on approach to PHL. The Captain; who was the pilot flying; decide",
+    "ACTOR": [
+      "First Officer",
+      "The",
+      "Captain"
+    ],
+    "SYSTEM": [
+      "TCAS",
+      "RA"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 33,
+    "narrative_preview": "Pilot reported an NMAC in cruise with an aircraft that was making 360 degree turns in their vicinity. Pilot took evasive action to avoid the other air",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 34,
+    "narrative_preview": "Air carrier Captain reported an NMAC with a UAS while on final approach. No evasive action was taken and the flight continued without further incident",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 35,
+    "narrative_preview": "Air carrier pilot reported GPS interference and then recovery between IMB and KU75M.",
+    "ACTOR": [
+      "pilot"
+    ],
+    "SYSTEM": [
+      "GPS",
+      "IM"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Aircraft Equipment Problem Less Severe",
+      "Inflight Event / Encounter Other / Unknown",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 36,
+    "narrative_preview": "General aviation pilot reported experiencing a NMAC in the traffic pattern. The other aircraft took evasive action to avoid a conflict.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 37,
+    "narrative_preview": "ZLA Center Controller reported a ground stop at LAS Airport and understaffing at several ATC facilities led to a high workload that caused the sector ",
+    "ACTOR": [
+      "LA",
+      "Center Controller",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "under",
+      "a high workload that caused the sector to be unmanageable and unworkable"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Air Traffic Control Provided Assistance",
+      "Air Traffic Control Separated Traffic",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 38,
+    "narrative_preview": "Light aircraft reported that after takeoff from TCY he became aware another aircraft broke off their landing attempt because of the conflict with his ",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "the conflict with his departure"
+    ],
+    "OUTCOME": [
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Incursion Runway",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 39,
+    "narrative_preview": "A TRACON Controller reported they misread the flight strip of a departing aircraft resulting in the aircraft flying below the minimum vectoring altitu",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "the aircraft flying below the minimum vectoring altitude"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance"
+    ]
+  },
+  {
+    "report_idx": 40,
+    "narrative_preview": "Air carrier flight crew reported receiving a low altitude alert from SFO Tower while responding to a TCAS RA; and; after executing a go-around; receiv",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "TCAS",
+      "RA",
+      "FLCH"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Airborne Conflict",
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Took Evasive Action",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 41,
+    "narrative_preview": "Air carrier flight crew reported responding to a TCAS RA on final approach to PHL that was caused by a helicopter flying beneath them. Flight crew fol",
+    "ACTOR": [
+      "flight crew",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "TCAS",
+      "RA"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "caused",
+      "a helicopter flying beneath them"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 42,
+    "narrative_preview": "Air carrier Captain reported the unshielded ramp lighting caused an intense glare while on final approach. The reporter noted that this was a problem ",
+    "ACTOR": [
+      "Captain",
+      "The",
+      "reporter"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Ground Event / Encounter Ground Equipment Issue"
+    ]
+  },
+  {
+    "report_idx": 43,
+    "narrative_preview": "Flight Instructor reported an NMAC during departure after the tower had closed for the day.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 44,
+    "narrative_preview": "ZSE Controller reported aircraft descended below published altitude resulting in a low altitude alert and a CFTT event.",
+    "ACTOR": [
+      "Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "a low altitude alert and a CFTT event"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 45,
+    "narrative_preview": "Air carrier First Officer reported receiving a GPWS terrain alert on approach to MMMM/MLM airport.",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "GPWS"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 46,
+    "narrative_preview": "Air Taxi First Officer reported landing safely after receiving a low altitude alert on short final to BOS airport.",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 47,
+    "narrative_preview": "Air carrier Captain reported receiving a low altitude alert from ATC on approach to LAX; citing possible miscommunication with ATC as contributing.",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "possible",
+      "miscommunication with"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Returned To Clearance",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 48,
+    "narrative_preview": "TRACON Controller reported aircraft descended below assigned altitude on approach resulted in a low altitude alert and a CFTT event.",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "a low"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Returned To Clearance",
+      "Flight Crew FLC complied w / Automation / Advisory"
+    ]
+  },
+  {
+    "report_idx": 49,
+    "narrative_preview": "C-172 Flight Instructor reported a near mid air collision with departing aircraft while entering traffic pattern.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 50,
+    "narrative_preview": "Part 107 UAS pilot reported a brief entry into controlled airspace without authorization. The pilot immediately exited the controlled airspace.",
+    "ACTOR": [
+      "The pilot"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Unknown",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Flight Crew Exited Penetrated Airspace"
+    ]
+  },
+  {
+    "report_idx": 51,
+    "narrative_preview": "Cessna 210 pilot reported a near midair collision with a jet aircraft on approach at intersecting runways. The pilot initiated a go-around to prevent ",
+    "ACTOR": [
+      "The pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 52,
+    "narrative_preview": "Air carrier pilot reported that on final approach to JAX the turn-off lights for Taxiway H and G create an illusion where it looks like there is a veh",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Ground Event / Encounter Ground Equipment Issue"
+    ]
+  },
+  {
+    "report_idx": 53,
+    "narrative_preview": "A Flight Instructor reported two NMAC's while on downwind in the Tower VFR pattern.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 54,
+    "narrative_preview": "Air carrier flight crew reported the TRACON Controller descended them to an altitude below the minimum vectoring altitude then issued a low altitude a",
+    "ACTOR": [
+      "flight crew",
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 55,
+    "narrative_preview": "Light aircraft pilot reported an NMAC on approach to D57 airport.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 56,
+    "narrative_preview": "Flight Instructor reported during landing roll-out a small jet did a go-around overflying the instructor's aircraft.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Ground Conflict",
+      "Critical",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 57,
+    "narrative_preview": "Low wing aircraft Flight Instructor reported taking evasive action to avoid traffic resulted in a NMAC event.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 58,
+    "narrative_preview": "Air carrier Captain reported receiving a low altitude warning from ATC during an unstable approach in visual conditions. The pilot performed a go-arou",
+    "ACTOR": [
+      "Captain",
+      "ATC",
+      "The pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 59,
+    "narrative_preview": "Flight instructor reported while in the pattern another aircraft was not allowing for spacing resulting in the flight instructor taking evasive action",
+    "ACTOR": [
+      "Flight instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "spa",
+      "the flight instructor taking evasive action to avoid a collision with the other aircraft"
+    ],
+    "OUTCOME": [
+      "Conflict Airborne Conflict",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 60,
+    "narrative_preview": "ZDV Controller reported that due to lack of sufficient radio coverage in ZDV and ZAB airspace they were unable to issue a higher altitude to an aircra",
+    "ACTOR": [
+      "Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "lack of sufficient radio coverage in ZDV and ZAB airspace they were unable to issue a higher altitude"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Ground Equipment Issue",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Provided Assistance"
+    ]
+  },
+  {
+    "report_idx": 61,
+    "narrative_preview": "Air taxi Captain reported a traffic conflict with an aircraft on the runway while on final approach; when the aircraft on the runway rejected their ta",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Air Traffic Control Separated Traffic",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 62,
+    "narrative_preview": "Air carrier pilot reported while on final approach ATC advised them of a helicopter that was maintaining visual separation from them; but the pilot ha",
+    "ACTOR": [
+      "pilot",
+      "ATC",
+      "the pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 63,
+    "narrative_preview": "A Center Controller working combined sectors reported they became distracted and could not focus on the safe operation of their sector after being not",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent; Cruise; Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "No Specific Anomaly Occurred Unwanted Situation"
+    ]
+  },
+  {
+    "report_idx": 64,
+    "narrative_preview": "GA Flight Instructor reported a near miss at PSM airport with another aircraft on final while landing on a training flight. ATC instructed the other a",
+    "ACTOR": [
+      "Flight Instructor",
+      "ATC",
+      "the Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Conflict Airborne Conflict",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Incursion Runway",
+      "Air Traffic Control Separated Traffic",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 65,
+    "narrative_preview": "A Flight Instructor reported they descended to 150 ft over a populated area.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 66,
+    "narrative_preview": "ATC TRACON Controller reported the Tower not following procedures resulting in the TRACON Controller having to vector two aircraft to maintain separat",
+    "ACTOR": [
+      "ATC",
+      "TRACON Controller",
+      "Tower"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "the TRACON Controller having to vector two aircraft to maintain separation"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Separated Traffic"
+    ]
+  },
+  {
+    "report_idx": 67,
+    "narrative_preview": "Air carrier Captain reported an airborne conflict on final approach with a UAS. No evasive action was taken.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 68,
+    "narrative_preview": "Air carrier crew reported a traffic conflict with an aircraft on takeoff from a parallel runway. The air carrier crew received a TCAS RA to level off;",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "traffic",
+      "TCAS",
+      "RA"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation - Altitude Undershoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Separated Traffic",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 69,
+    "narrative_preview": "GA pilot reported a near miss with another aircraft during final approach due to other aircraft flying erratically.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "to",
+      "other aircraft flying erratically"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 70,
+    "narrative_preview": "Air carrier flight crew reported an NMAC on final approach with what was possibly a UAS or balloon. No evasive action was taken.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 71,
+    "narrative_preview": "Air carrier flight crew reported a GPWS terrain warning while intercepting course for RNAV Y 24 at ROA airport.  Crew executed a go-around and returne",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "GPWS",
+      "RNAV"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Took Evasive Action",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 72,
+    "narrative_preview": "C172 student pilot reported momentary loss of control on landing.",
+    "ACTOR": [
+      "student pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Flight Crew Regained Aircraft Control"
+    ]
+  },
+  {
+    "report_idx": 73,
+    "narrative_preview": "Air Taxi Captain on approach to SAT reported a Traffic Alert from ATC followed by a TCAS/RA. Captain took evasive action to avoid an unidentified VFR ",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Traffic Alert",
+      "TCAS/",
+      "RA"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Air Traffic Control Provided Assistance",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 74,
+    "narrative_preview": "Corporate jet pilot reported a near miss with an aircraft while descending on final approach which resulted in a TCAS RA. The pilot leveled off follow",
+    "ACTOR": [
+      "The pilot"
+    ],
+    "SYSTEM": [
+      "TCAS",
+      "RA",
+      "RA guidance"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "a"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew FLC complied w / Automation / Advisory"
+    ]
+  },
+  {
+    "report_idx": 75,
+    "narrative_preview": "A pilot reported a NMAC while practicing ground reference maneuvers in the traffic pattern of a non-towered private airport.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Other Maneuvers",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 76,
+    "narrative_preview": "Two Flight Instructors reported a near miss with each other at a non-towered airport. The aircraft on final approach performed a go-around when the ot",
+    "ACTOR": [
+      "Flight Instructors"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Incursion Runway",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 77,
+    "narrative_preview": "Helicopter flight instructor reported another helicopter on a converging resulted in taking immediate evasive action and a NMAC event.",
+    "ACTOR": [
+      "flight instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 78,
+    "narrative_preview": "NCT TRACON Controller reported SFO departed one aircraft on the SEGUL Departure and another aircraft on the SSTIK Departure; which made maintaining ad",
+    "ACTOR": [
+      "NCT",
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "SS"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Separated Traffic"
+    ]
+  },
+  {
+    "report_idx": 79,
+    "narrative_preview": "Center Controller reported an aircraft that they provided services to and was sent to UNICOM called back to report a NMAC with another aircraft.",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Other VFR Traffic Pattern",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 80,
+    "narrative_preview": "Air carrier Captain reported having a near miss with hot air balloons that were along the instrument approach corridor and suggested prohibiting the o",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC"
+    ]
+  },
+  {
+    "report_idx": 81,
+    "narrative_preview": "A student pilot reported they turned base leg behind the wrong aircraft on final resulting in a NMAC.",
+    "ACTOR": [
+      "student pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "a NMAC"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 82,
+    "narrative_preview": "GA pilot on short final to a non-towered airport reported an NMAC when an aircraft turned onto final from a base leg in front of them.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 83,
+    "narrative_preview": "Air carrier First Officer reported on a night visual approach being high and fast resulting in overshooting the final approach course and ATC issuing ",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "overshooting the final approach course and ATC issuing a low altitude alert"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Issued Advisory / Alert"
+    ]
+  },
+  {
+    "report_idx": 84,
+    "narrative_preview": "Air carrier flight crew reported an NMAC with a UAS during approach. No evasive action was taken.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 85,
+    "narrative_preview": "Government UAS pilot reported exceeding authorized altitude during a flight.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural FAR",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 86,
+    "narrative_preview": "Pilot reported they descended below their assigned altitude and received a Low Altitude Alert from ATC.",
+    "ACTOR": [
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 87,
+    "narrative_preview": "Flight Instructor with student reported an NMAC with a UAS during cruise flight. The student pilot took evasive action to avoid possible collision wit",
+    "ACTOR": [
+      "Flight Instructor",
+      "The",
+      "student pilot"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 88,
+    "narrative_preview": "A Flight Instructor on short final to a non-towered airport reported an NMAC when another aircraft turned from base leg to final in front of them.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 89,
+    "narrative_preview": "Corporate jet Captain reported being established on the RNAV GPS to Runway 28L at HWD Airport but received a TA from a VFR general aviation aircraft t",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "RNAV",
+      "GPS",
+      "TA"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Airborne Conflict",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 90,
+    "narrative_preview": "B737 Captain reported pilot flying failed to flare properly which resulted in a hard landing.",
+    "ACTOR": [
+      "Captain",
+      "pilot flying"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "flare properly which resulted in a hard landing"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Loss Of Aircraft Control",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 91,
+    "narrative_preview": "General aviation pilot reported a near miss with a helicopter at night; near a non-towered airport. The general aviation pilot maneuvered away from th",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "radio"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 92,
+    "narrative_preview": "A C-172M instructor reported descending below minimum altitude when performing training maneuvers with a student during a steep turn.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Other Maneuvering",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 93,
+    "narrative_preview": "DHC6 Pilot reported observing a MU-2 purposely overflying a C-150 that had just landed; resulting in a NMAC.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Taxi",
+    "TRIGGER": [
+      "a NMAC"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 94,
+    "narrative_preview": "Fractional First Officer reported entering a VFR pattern altitude appropriate for jet aircraft; but was informed by ATC that the correct altitude was ",
+    "ACTOR": [
+      "First Officer",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach; Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Airborne Conflict",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew FLC complied w / Automation / Advisory"
+    ]
+  },
+  {
+    "report_idx": 95,
+    "narrative_preview": "A Corporate pilot reported descending below their assigned altitude and received a Low Altitude Alert from ATC.",
+    "ACTOR": [
+      "Corporate pilot",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew FLC complied w / Automation / Advisory"
+    ]
+  },
+  {
+    "report_idx": 96,
+    "narrative_preview": "ZAU Center Controller and their trainee reported they missed an erroneous altitude read back and the aircraft descended below the Minimum Enroute Alti",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 97,
+    "narrative_preview": "GA Flight Instructor reported while being vectored for a practice approach ATC advised them of traffic resulting in ATC then issuing an immediate clim",
+    "ACTOR": [
+      "Flight Instructor",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "ATC then issuing an immediate climb to avoid a collision with traffic"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 98,
+    "narrative_preview": "A Cubcrafter pilot reported an NMAC with a Citation when both aircraft departed intersecting runways from a non-towered airport at the same time.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC"
+    ]
+  },
+  {
+    "report_idx": 99,
+    "narrative_preview": "B737 Captain reported a balloon passing over their wing while on approach.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 100,
+    "narrative_preview": "Air carrier First Officer reported the flight crew loaded the wrong fix and flew approximately 8 miles off course before being corrected by ATC. The r",
+    "ACTOR": [
+      "First Officer",
+      "flight crew",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "the mistake going unnoticed during route verification"
+    ],
+    "OUTCOME": [
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 101,
+    "narrative_preview": "Air carrier Captain reported an NMAC with a UAS during cruise flight. No evasive action was taken.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 102,
+    "narrative_preview": "A Flight Instructor reported they taxied on to the runway to depart from a non-towered airport when they observed an aircraft on an opposite direction",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Taxi",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Ground Conflict",
+      "Critical"
+    ]
+  },
+  {
+    "report_idx": 103,
+    "narrative_preview": "R44 pilot reported a NMAC with a non communicating UH-60 helicopter operating in Class D airspace. Pilot took evasive action to avoid a collision.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 104,
+    "narrative_preview": "Pilot reported the ASOS at MRF Airport is constantly out of service or partially functional; and inaccurate on many occasions. When the ASOS malfuncti",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "malfunctioning"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Ground Equipment Issue",
+      "Inflight Event / Encounter Weather / Turbulence"
+    ]
+  },
+  {
+    "report_idx": 105,
+    "narrative_preview": "A J3 Cub pilot in the pattern at a private airstrip reported an NMAC when a helicopter passed close by.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC"
+    ]
+  },
+  {
+    "report_idx": 106,
+    "narrative_preview": "B737-800 pilot reported that while on initial approach; ATC issued a low altitude alert which resulted in an unstable approach and go-around.",
+    "ACTOR": [
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 107,
+    "narrative_preview": "GA pilot reported an NMAC in the traffic pattern with an aircraft that turned in front of them. Pilot took evasive action to prevent a collision.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 108,
+    "narrative_preview": "Small aircraft pilot reported an airborne conflict with a UAS while in cruise flight. No evasive action was taken.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 109,
+    "narrative_preview": "Air carrier flight crew reported during departure they flew the SID as charted; but the Air Traffic Controller informed them they had to be above 3000",
+    "ACTOR": [
+      "flight crew",
+      "the",
+      "Traffic",
+      "Controller",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Aircraft Equipment Problem Less Severe",
+      "Conflict Airborne Conflict",
+      "Deviation - Altitude Undershoot",
+      "Deviation - Altitude Crossing Restriction Not Met",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 110,
+    "narrative_preview": "Air carrier Captain reported selecting an improper altimeter setting as received on the ATIS from ATC; resulting in a low altitude alert while on an i",
+    "ACTOR": [
+      "Captain",
+      "AT",
+      "ATC",
+      "The crew"
+    ],
+    "SYSTEM": [
+      "altimeter"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "a low altitude alert while on an instrument approach in mountainous terrain"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Aircraft Equipment Problem Critical",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew FLC complied w / Automation / Advisory"
+    ]
+  },
+  {
+    "report_idx": 111,
+    "narrative_preview": "Air carrier Captain reported attempting to contact ATC multiple times while on final approach to request landing clearance. Flight crew did not receiv",
+    "ACTOR": [
+      "Captain",
+      "ATC",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "No Specific Anomaly Occurred Unwanted Situation",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 112,
+    "narrative_preview": "PA28 Pilot reported a near miss with a helicopter while landing at a non-towered airport.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 113,
+    "narrative_preview": "Air carrier flight crew reported an NMAC on approach resulting in an RA and taking evasive action.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "an RA and taking evasive action"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 114,
+    "narrative_preview": "General aviation pilot reported a persistent issue with N90 TRACON reluctance to clear aircraft on the GPS-A approach to LDJ airport.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "GPS"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter VFR In IMC",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Air Traffic Control Issued Advisory / Alert"
+    ]
+  },
+  {
+    "report_idx": 115,
+    "narrative_preview": "Survey pilot reported a near miss during cruise that required evasive action to avoid a collision.",
+    "ACTOR": [
+      "Survey pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 116,
+    "narrative_preview": "SR20 pilot reported a traffic alert and NMAC with an aircraft who failed to follow reporters plane in pattern per ATC instructions.  SR20 pilot made a",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "traffic alert"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "to",
+      "follow reporters plane in pattern per ATC instructions"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 117,
+    "narrative_preview": "Air carrier crew reported a traffic conflict with a delayed departing aircraft while on final approach resulting in an ATC-directed go around to provi",
+    "ACTOR": [
+      "The crew"
+    ],
+    "SYSTEM": [
+      "traffic"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "an ATC-directed go around to provide separation"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Incursion Runway",
+      "Air Traffic Control Separated Traffic"
+    ]
+  },
+  {
+    "report_idx": 118,
+    "narrative_preview": "Air carrier Captain reported a lack of flying proficiency of First Officers in the one to three years in the 737 fleet. Some issues manifested themsel",
+    "ACTOR": [
+      "Captain",
+      "First Officers"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "workload"
+    ],
+    "OUTCOME": [
+      "Deviation - Speed All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "No Specific Anomaly Occurred Unwanted Situation",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 119,
+    "narrative_preview": "A TRACON Controller reported an aircraft descended below its assigned altitude and flew below the Minimum IFR Altitude.",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 120,
+    "narrative_preview": "A321 Captain reported a firm touchdown during landing by the flying pilot with no exceedances or aircraft damage. Pilot added the loss of elevator aut",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "elevator"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "CG being too far forward"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Weight And Balance",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Flight Crew Overcame Equipment Problem"
+    ]
+  },
+  {
+    "report_idx": 121,
+    "narrative_preview": "Student Pilot reported a NMAC while on initial climb out.",
+    "ACTOR": [
+      "Student Pilot"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 122,
+    "narrative_preview": "Air carrier Captain reported a conflict as an aircraft was cleared for takeoff on the same runway while they were on final approach below 500 AFE resu",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "a go-around"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Ground Conflict",
+      "Critical",
+      "Deviation - Speed All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Executed Go Around / Missed Approach"
+    ]
+  },
+  {
+    "report_idx": 123,
+    "narrative_preview": "Air carrier Captain reported the aircraft was relatively high on the PAPIs and the flight crew was unable to align with PAPI guidance while attempting",
+    "ACTOR": [
+      "Captain",
+      "the",
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "PAPIs",
+      "PAPI",
+      "RNAV"
+    ],
+    "PHASE": "Final Approach; Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Ground Event / Encounter Ground Equipment Issue",
+      "Inflight Event / Encounter Unstabilized Approach"
+    ]
+  },
+  {
+    "report_idx": 124,
+    "narrative_preview": "An observer reported seeing footage of a UAS possibly flying above 400 feet AGL and flying near two aircraft.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Unknown",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 125,
+    "narrative_preview": "A Center Controller reported after they took over a busy combined sector they failed to notice an air carrier conflicting with an unidentified VFR tar",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Provided Assistance",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 126,
+    "narrative_preview": "A TRACON Controller reported an aircraft executed a missed approach but deviated from the procedure placing it below an aircraft on approach to a near",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "being fatigued from working at a facility with insufficient staffing"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Separated Traffic"
+    ]
+  },
+  {
+    "report_idx": 127,
+    "narrative_preview": "General aviation pilot reported flight toward terrain while maneuvering during cruise.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 128,
+    "narrative_preview": "SR20 Flight Instructor reported an NMAC event during landing training. The Flight Instructor took evasive action which avoided a collision.",
+    "ACTOR": [
+      "Flight Instructor",
+      "The"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 129,
+    "narrative_preview": "ZLC Controller reported scheduled GPS Jamming in their sector resulted in loss of radar contact with aircraft resulting in one of them flying below th",
+    "ACTOR": [
+      "LC",
+      "Controller"
+    ],
+    "SYSTEM": [
+      "GPS",
+      "radar"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "loss of",
+      "one of them flying below the Minimum Vectoring Altitude"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Ground Equipment Issue",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Provided Assistance"
+    ]
+  },
+  {
+    "report_idx": 130,
+    "narrative_preview": "C172 Instructor reported receiving conflicting ATC clearance in the traffic pattern followed by a NMAC event.",
+    "ACTOR": [
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 131,
+    "narrative_preview": "GA Flight Instructor with student reported a CFTT event while performing eights on pylons maneuvers.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Other Maneuvering",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 132,
+    "narrative_preview": "Air carrier Captain reported the ATIS required aircraft to do a charted visual flight procedure but ATC vectored the flight crew to a final approach t",
+    "ACTOR": [
+      "Captain",
+      "AT",
+      "ATC",
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 133,
+    "narrative_preview": "C172 Flight Instructor on training flight with student reported a near miss with a helicopter.",
+    "ACTOR": [
+      "Flight Instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 134,
+    "narrative_preview": "A Center Controller reported they issued a heading to an aircraft that placed it below the Minimum Vectoring Altitude.",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "General Flight Cancelled / Delayed"
+    ]
+  },
+  {
+    "report_idx": 135,
+    "narrative_preview": "Air carrier flight crew reported a CFTT event during approach to IAD airport.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Landing",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 136,
+    "narrative_preview": "Air carrier Captain reported a CFTT event during final approach to EWR airport.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 137,
+    "narrative_preview": "Air carrier flight crew reported descended below the published minimums during approach resulting in a low altitude alert from ATC. Flight crew correc",
+    "ACTOR": [
+      "flight crew",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "a low altitude alert from ATC"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 138,
+    "narrative_preview": "Air carrier Captain reported a taxi chart discrepancy at LAX identifying a specific intersection on the taxi chart in the EFB. The performance data id",
+    "ACTOR": [
+      "Captain",
+      "the"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Parked",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 139,
+    "narrative_preview": "A Dispatcher reported a flight not equipped with ozone converters was dispatched at an altitude in an area of Ozone.",
+    "ACTOR": [
+      "Dispatcher"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Aircraft Equipment Problem Critical",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Ground Equipment Issue",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Overcame Equipment Problem"
+    ]
+  },
+  {
+    "report_idx": 140,
+    "narrative_preview": "Air carrier flight crew reported they were using the wrong altimeter setting while descending on approach which resulted in being below glidepath and ",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "altimeter"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "being below glidepath and a Caution Obstacle alert"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Returned To Clearance",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 141,
+    "narrative_preview": "PA-44 commercial pilot applicant and check pilot reported an aircraft loss of control while performing a single engine approach circle to land in visu",
+    "ACTOR": [
+      "commercial pilot",
+      "check pilot",
+      "The"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Aircraft Equipment Problem Critical",
+      "Deviation / Discrepancy - Procedural Landing Without Clearance",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 142,
+    "narrative_preview": "Air carrier Captain reported an excessive bank angle when correcting a turn from a heading deviation while climbing on a departure procedure. The pilo",
+    "ACTOR": [
+      "Captain",
+      "The pilot",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Regained Aircraft Control"
+    ]
+  },
+  {
+    "report_idx": 143,
+    "narrative_preview": "Air carrier First Officer reported receiving an obstacle alert on approach to LGA when they descended below charted altitude because they had a wrong ",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "altimeter"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 144,
+    "narrative_preview": "C182 pilot reported experiencing inflight icing in cruise resulting in temporary loss of aircraft control and a CFTT event. Pilot was able to land saf",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "icing",
+      "temporary loss of aircraft control and a CFTT event"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation - Speed All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Loss Of Aircraft Control",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 145,
+    "narrative_preview": "Air carrier Dispatcher reported unable to communicate with a flight for over 4 hours during cruise in oceanic airspace. The flight regained communicat",
+    "ACTOR": [
+      "Dispatcher",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Aircraft Equipment Problem Critical",
+      "Deviation / Discrepancy - Procedural Security",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Flight Crew Overcame Equipment Problem"
+    ]
+  },
+  {
+    "report_idx": 146,
+    "narrative_preview": "Air carrier pilots reported they were advised by ATC that their aircraft was below the minimum vectoring altitude.",
+    "ACTOR": [
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Crossing Restriction Not Met",
+      "Deviation - Altitude Overshoot",
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 147,
+    "narrative_preview": "Corporate flight crew reported they temporarily lost communication with ATC and flew below the Minimum Vectoring Altitude.",
+    "ACTOR": [
+      "flight crew",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Aircraft Equipment Problem Less Severe",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 148,
+    "narrative_preview": "Tower Controller reported aircraft being held by TRACON to avoid VFR traffic conflict resulting with the aircraft descending rapidly and being issued ",
+    "ACTOR": [
+      "Tower Controller",
+      "TR"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert"
+    ]
+  },
+  {
+    "report_idx": 149,
+    "narrative_preview": "B757 Captain reported they descended below the glidepath on final approach and received a low altitude alert from ATC.",
+    "ACTOR": [
+      "Captain",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Final Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Excursion From Assigned Altitude",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Returned To Clearance",
+      "Flight Crew Became Reoriented"
+    ]
+  },
+  {
+    "report_idx": 150,
+    "narrative_preview": "Air taxi pilot reported responding to a TCAS RA during approach to HWD which was caused by an aircraft flying near the final approach area and not in ",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "TCAS",
+      "RA"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "caused",
+      "an aircraft flying near the final approach area and not in communication with ATC"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Conflict Airborne Conflict",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 151,
+    "narrative_preview": "CRJ-700 First Officer reported altitude overshoot resulted in GPWS alert and a CFTT event.",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "GPWS"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Aircraft Equipment Problem Less Severe",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Overcame Equipment Problem",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 152,
+    "narrative_preview": "ARTCC Controller reported C172 was not able to climb to altitude which resulted in controller issuing routing with pilot concurrence to maintain terra",
+    "ACTOR": [
+      "ARTCC",
+      "Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Diverted"
+    ]
+  },
+  {
+    "report_idx": 153,
+    "narrative_preview": "C172 pilot reported while on a practice approach another aircraft reported that they flew right over them and that they took evasive action to avoid a",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 154,
+    "narrative_preview": "Air taxi Captain reported a NMAC approaching the FAF with a VFR aircraft not in communication with TRACON.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 155,
+    "narrative_preview": "Air carrier flight crew reported while flying a visual approach they turned base early resulting in an unstabilized approach and late aircraft configu",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "an unstabilized approach and late aircraft configuration"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Unstabilized Approach",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 156,
+    "narrative_preview": "Fractional jet flight crew reported they failed to notice the aircraft descended below a published crossing restriction on an approach.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "to",
+      "notice",
+      "the aircraft descended below a published crossing restriction on"
+    ],
+    "OUTCOME": [
+      "Deviation - Altitude Crossing Restriction Not Met",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 157,
+    "narrative_preview": "Air carrier First Officer reported being notified by Dispatch that unmanifested DG had been loaded onboard. The flight landed normally at destination.",
+    "ACTOR": [
+      "First Officer"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Parked",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Weight And Balance",
+      "Deviation / Discrepancy - Procedural Hazardous Material Violation",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy"
+    ]
+  },
+  {
+    "report_idx": 158,
+    "narrative_preview": "GA Flight Instructor reported a near miss with another aircraft when descending into the traffic pattern as the other aircraft climbed towards the ins",
+    "ACTOR": [
+      "Flight Instructor",
+      "The instructor"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 159,
+    "narrative_preview": "A TRACON Controller reported that an aircraft deviated from the SID and flew below the Minimum Vectoring Altitude.",
+    "ACTOR": [
+      "TRACON Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Air Traffic Control Provided Assistance",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Became Reoriented",
+      "Flight Crew Returned To Clearance",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 160,
+    "narrative_preview": "Air carrier Captain reported there is no NOTAM for the tattered windsock with the inoperative light at PKMJ Airport.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Parked",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Ground Event / Encounter Ground Equipment Issue"
+    ]
+  },
+  {
+    "report_idx": 161,
+    "narrative_preview": "An observer reported seeing a stationery UAS hovering near a highway.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Hovering (UAS)",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "No Specific Anomaly Occurred All Types",
+      "General None Reported / Taken"
+    ]
+  },
+  {
+    "report_idx": 162,
+    "narrative_preview": "A Center Controller reported a departing aircraft was issued an incorrect departure procedure and flew below the Minimum IFR Altitude.",
+    "ACTOR": [
+      "Center Controller"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Air Traffic Control Provided Assistance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew Returned To Clearance"
+    ]
+  },
+  {
+    "report_idx": 163,
+    "narrative_preview": "B767 flight crew reported lightning strike followed by multiple electrical malfunctions and electrical burning smells resulted in a diversion.",
+    "ACTOR": [
+      "flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Aircraft Equipment Problem Critical",
+      "Deviation - Track / Heading All Types",
+      "Flight Deck / Cabin / Aircraft Event Smoke / Fire / Fumes / Odor",
+      "Inflight Event / Encounter Weather / Turbulence",
+      "Flight Crew Diverted",
+      "Flight Crew Landed in Emergency Condition"
+    ]
+  },
+  {
+    "report_idx": 164,
+    "narrative_preview": "Student pilot on initial climb from a non-towered airport reported a NMAC with a helicopter flying through the pattern not communicating on CTAF.",
+    "ACTOR": [
+      "Student pilot"
+    ],
+    "SYSTEM": [
+      "CTAF"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 165,
+    "narrative_preview": "Part 107 UAS pilot reported an airborne conflict with a helicopter. The UAS avoided the helicopter.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict Airborne Conflict",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 166,
+    "narrative_preview": "Air carrier Captain reported receiving a Caution Obstacle alert during approach due to being below glidepath and using the wrong altimeter setting. Fl",
+    "ACTOR": [
+      "Captain",
+      "Flight crew"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "to",
+      "being below glidepath and using the wrong altimeter setting"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Deviation - Altitude Overshoot",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Inflight Event / Encounter CFTT / CFIT",
+      "Air Traffic Control Issued New Clearance",
+      "Flight Crew Requested ATC Assistance / Clarification",
+      "Flight Crew FLC complied w / Automation / Advisory",
+      "Flight Crew Executed Go Around / Missed Approach",
+      "General Flight Cancelled / Delayed"
+    ]
+  },
+  {
+    "report_idx": 167,
+    "narrative_preview": "Recreational / Hobbyist UAS pilot reported flying in controlled airspace without authorization.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "UAS"
+    ],
+    "PHASE": "Cruise",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Airspace Violation All Types",
+      "Deviation / Discrepancy - Procedural FAR",
+      "Deviation / Discrepancy - Procedural Published Material / Policy",
+      "Deviation / Discrepancy - Procedural Unauthorized Flight Operations (UAS)",
+      "Flight Crew Exited Penetrated Airspace"
+    ]
+  },
+  {
+    "report_idx": 168,
+    "narrative_preview": "Air carrier Captain reported an NMAC with a helicopter on arrival into LGA.",
+    "ACTOR": [
+      "Captain"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Approach",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 169,
+    "narrative_preview": "Light aircraft pilot inbound to DAL reported an NMAC with a glider that was apparently not equipped with ADSB Out.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "ADSB"
+    ],
+    "PHASE": "Descent",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Flight Crew Requested ATC Assistance / Clarification"
+    ]
+  },
+  {
+    "report_idx": 170,
+    "narrative_preview": "C206 flight crew reported while departing receiving a TA and ATC traffic alert for traffic not on frequency resulting in the flight crew taking evasiv",
+    "ACTOR": [
+      "flight crew",
+      "ATC"
+    ],
+    "SYSTEM": [
+      "TA",
+      "traffic alert",
+      "frequency"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "the flight crew taking evasive action to avoid a collision with the other aircraft"
+    ],
+    "OUTCOME": [
+      "ATC Issue All Types",
+      "Airspace Violation All Types",
+      "Conflict NMAC",
+      "Air Traffic Control Issued Advisory / Alert",
+      "Flight Crew Took Evasive Action"
+    ]
+  },
+  {
+    "report_idx": 171,
+    "narrative_preview": "RV12 pilot on initial climb from a non-towered airport reported a NMAC with an air carrier which departed an intersecting runway.",
+    "ACTOR": [
+      "Unknown"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Initial Climb",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation / Discrepancy - Procedural Published Material / Policy"
+    ]
+  },
+  {
+    "report_idx": 172,
+    "narrative_preview": "GA pilot reported they had a near mid air collision with another aircraft while making a left bank turn after climbing heading to traffic pattern alti",
+    "ACTOR": [
+      "ATC"
+    ],
+    "SYSTEM": [
+      "Not identified"
+    ],
+    "PHASE": "Takeoff / Launch",
+    "TRIGGER": [
+      "Not explicitly stated"
+    ],
+    "OUTCOME": [
+      "Conflict NMAC",
+      "Deviation - Track / Heading All Types",
+      "Deviation / Discrepancy - Procedural Clearance",
+      "General None Reported / Taken"
+    ]
+  }
+]

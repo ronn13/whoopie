@@ -1,0 +1,23 @@
+{
+  "bert_base": {
+    "model_name": "bert-base-uncased",
+    "test_f1": 0.7413957428783226,
+    "test_loss": 0.6903471993282437,
+    "precision": 0.6552264808362369,
+    "recall": 0.8571428571428571,
+    "best_val_f1": 0.7310534293292913,
+    "best_epoch": 9,
+    "trainable_params": 108897031
+  },
+  "safe_aero_bert": {
+    "model_name": "NASA-AIML/MIKA_SafeAeroBERT",
+    "test_f1": 0.8296703296703297,
+    "test_loss": 0.49467162787914276,
+    "precision": 0.7857142857142857,
+    "recall": 0.8809523809523809,
+    "best_val_f1": 0.7575549450549451,
+    "best_epoch": 10,
+    "trainable_params": 108897031
+  },
+  "winner": "SafeAeroBERT \ud83d\udee9\ufe0f"
+}

@@ -4,8 +4,11 @@
 *.ckpt
 *.bin
 
+./docs
+
 # Data files (if large)
-# *.csv  # keep small CSVs but exclude if needed
+*.csv  # keep small CSVs but exclude if needed
+eccairs_taxonomy_full.json
 
 # Python
 __pycache__/

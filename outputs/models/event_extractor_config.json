@@ -1,0 +1,36 @@
+{
+  "model_name": "bert-base-uncased",
+  "max_len": 256,
+  "num_labels": 7,
+  "label2id": {
+    "O": 0,
+    "B-ACTOR": 1,
+    "I-ACTOR": 2,
+    "B-SYSTEM": 3,
+    "I-SYSTEM": 4,
+    "B-TRIGGER": 5,
+    "I-TRIGGER": 6
+  },
+  "id2label": {
+    "0": "O",
+    "1": "B-ACTOR",
+    "2": "I-ACTOR",
+    "3": "B-SYSTEM",
+    "4": "I-SYSTEM",
+    "5": "B-TRIGGER",
+    "6": "I-TRIGGER"
+  },
+  "entity_types": [
+    "ACTOR",
+    "SYSTEM",
+    "TRIGGER"
+  ],
+  "best_epoch": 9,
+  "best_val_f1": 0.6983863020448386,
+  "training_config": {
+    "batch_size": 8,
+    "learning_rate": 3e-05,
+    "num_epochs": 10,
+    "warmup_ratio": 0.1
+  }
+}

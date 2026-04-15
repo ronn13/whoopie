@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeAeroBERT — Aviation Incident Analyzer</title>
+  <meta name="description" content="Interactive demo of the SafeAeroBERT two-layer pipeline: NER entity extraction and damage severity classification for aviation incident narratives." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo-group">
+      <div class="logo-icon">✈</div>
+      <div>
+        <h1 class="logo-title">SafeAeroBERT</h1>
+        <span class="logo-sub">Aviation Incident Analyzer · Demo</span>
+      </div>
+    </div>
+    <div class="header-badges">
+      <span class="badge badge-l1">Layer 1 · NER</span>
+      <span class="badge badge-l3">Layer 3 · Classifier</span>
+      <span class="badge badge-acc">88% Accuracy</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════  HERO BANNER  ═══════════════════════════ -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">CMU Deep Learning · Project Milestone 2</p>
+    <h2 class="hero-headline">
+      Two-Layer Pipeline for<br/>
+      <span class="gradient-text">Incident Narrative Analysis</span>
+    </h2>
+    <p class="hero-body">
+      Paste any aviation safety narrative below. The pipeline will extract
+      causal entities <em>(ACTOR · SYSTEM · TRIGGER)</em> and predict the report category.
+    </p>
+  </div>
+  <!-- animated radar rings -->
+  <div class="radar-ring r1"></div>
+  <div class="radar-ring r2"></div>
+  <div class="radar-ring r3"></div>
+</section>
+
+<!-- ═══════════════════════════  MAIN CONTENT  ═══════════════════════════ -->
+<main class="main-grid">
+
+  <!-- ────────────────  INPUT PANEL  ──────────────── -->
+  <section class="card input-card" id="input-panel">
+    <div class="card-header">
+      <span class="card-icon">📝</span>
+      <h2 class="card-title">Incident Narrative</h2>
+    </div>
+
+    <!-- Quick examples -->
+    <div class="examples-row">
+      <span class="examples-label">Quick examples:</span>
+      <button class="example-chip" id="eg1-btn">Hull loss</button>
+      <button class="example-chip" id="eg2-btn">Near miss</button>
+      <button class="example-chip" id="eg3-btn">Engine failure</button>
+    </div>
+
+    <div class="textarea-wrap">
+      <textarea
+        id="narrative-input"
+        placeholder="Paste an aviation incident narrative here, or pick a quick example above…"
+        rows="9"
+        spellcheck="false"
+      ></textarea>
+      <div class="char-counter" id="char-counter">0 chars</div>
+    </div>
+
+    <!-- Mode toggle -->
+    <div class="mode-row">
+      <label class="mode-label">Run mode:</label>
+      <div class="mode-tabs" role="group">
+        <button class="mode-tab active" id="mode-pipeline" data-mode="pipeline">⚡ Full Pipeline</button>
+        <button class="mode-tab" id="mode-ner" data-mode="ner">🔍 NER only</button>
+        <button class="mode-tab" id="mode-classify" data-mode="classify">🏷 Classify only</button>
+      </div>
+    </div>
+
+    <button class="run-btn" id="run-btn">
+      <span class="run-btn-text">Analyze Narrative</span>
+      <span class="run-btn-icon">→</span>
+    </button>
+
+    <div class="error-banner hidden" id="error-banner">
+      <span class="error-icon">⚠</span>
+      <span id="error-msg"></span>
+    </div>
+  </section>
+
+  <!-- ────────────────  NER RESULT PANEL  ──────────────── -->
+  <section class="card ner-card" id="ner-panel">
+    <div class="card-header">
+      <span class="card-icon">🔍</span>
+      <h2 class="card-title">Entity Extraction</h2>
+      <span class="model-tag">bert-base-uncased · fine-tuned</span>
+    </div>
+
+    <div class="ner-placeholder placeholder-state" id="ner-placeholder">
+      <div class="placeholder-icon">🔬</div>
+      <p>Run the pipeline to see extracted entities</p>
+    </div>
+
+    <!-- Highlighted narrative -->
+    <div class="hidden" id="ner-results">
+      <div class="entity-legend">
+        <span class="legend-pill actor">ACTOR</span>
+        <span class="legend-pill system">SYSTEM</span>
+        <span class="legend-pill trigger">TRIGGER</span>
+      </div>
+
+      <div class="highlighted-text-wrap">
+        <div class="highlighted-text" id="highlighted-text"></div>
+      </div>
+
+      <!-- Entity chips -->
+      <div class="entity-groups" id="entity-groups"></div>
+    </div>
+
+    <div class="loading-overlay hidden" id="ner-loading">
+      <div class="spinner"></div>
+      <span>Extracting entities…</span>
+    </div>
+  </section>
+
+  <!-- ────────────────  CLASSIFIER PANEL (MODEL COMPARISON) ──────────────── -->
+  <div class="models-comparison-grid">
+    
+    <!-- Model 1 (SafeAeroBERT) -->
+    <section class="card classify-card" id="classify-panel">
+      <div class="card-header">
+        <span class="card-icon">🏷</span>
+        <h2 class="card-title">SafeAeroBERT</h2>
+        <span class="model-tag">Layer 3</span>
+      </div>
+      
+      <div id="classify-loading" class="loading hidden" style="text-align:center; padding:2rem 0;">
+        <div class="spinner" style="margin:0 auto 10px;"></div><div style="color:var(--text-muted);font-size:0.85rem;">Analyzing ADREP context…</div>
+      </div>
+
+      <div id="classify-placeholder" class="placeholder-state">
+        <div class="placeholder-icon">📊</div>
+        <p>Classification results will appear here.</p>
+      </div>
+
+      <div id="classify-results" class="hidden">
+        <div class="verdict-box" id="verdict-box" data-cat="unk">
+          <div class="verdict-category" id="verdict-category">UNK</div>
+          <div class="verdict-label" id="verdict-label">Unknown Event</div>
+          <span class="verdict-conf" id="verdict-conf">Confidence: --</span>
+        </div>
+
+        <!-- Probability bars -->
+        <div class="prob-bars" id="prob-bars"></div>
+      </div>
+    </section>
+
+    <!-- Model 2 (Placeholder) -->
+    <section class="card classify-card" id="classify-panel-2">
+      <div class="card-header">
+        <span class="card-icon">🏷</span>
+        <h2 class="card-title">Model 2 (Pending)</h2>
+      </div>
+      <div class="placeholder-state">
+        <div class="placeholder-icon" style="opacity:0.15;">🕒</div>
+        <p>Awaiting teammate integration</p>
+      </div>
+    </section>
+
+    <!-- Model 3 (Placeholder) -->
+    <section class="card classify-card" id="classify-panel-3">
+      <div class="card-header">
+        <span class="card-icon">🏷</span>
+        <h2 class="card-title">Model 3 (Pending)</h2>
+      </div>
+      <div class="placeholder-state">
+        <div class="placeholder-icon" style="opacity:0.15;">🕒</div>
+        <p>Awaiting teammate integration</p>
+      </div>
+    </section>
+
+  </div>
+
+</main>
+
+<!-- ═══════════════════════════  METRICS FOOTER  ═══════════════════════════ -->
+<section class="metrics-strip">
+  <div class="metrics-inner">
+    <div class="metric-item">
+      <span class="metric-val">88%</span>
+      <span class="metric-lbl">Weighted Accuracy</span>
+    </div>
+    <div class="metric-sep"></div>
+    <div class="metric-item">
+      <span class="metric-val">8</span>
+      <span class="metric-lbl">Occurrence Classes</span>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>CMU Introduction to Deep Learning · Final Project ·Spring 26</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
