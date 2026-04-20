@@ -88,21 +88,24 @@ Content-Type: application/json
 
 ## Canonical Label Table
 
-All 11 accepted classes. Your model must use **exactly** these strings — casing and punctuation included.
+All 14 accepted classes. Your model must use **exactly** these strings — casing and punctuation included.
 
 | ICAO Code (`top_5[i].class`) | Full Description (`prediction.top_class`) | UI Badge Colour |
 |---|---|---|
-| `MAC`   | `Mid-Air Collision` | red `#f87171` |
-| `CFIT`  | `Controlled Flight Into or Toward Terrain` | orange `#f97316` |
-| `GCOL`  | `Ground Collision` | yellow `#facc15` |
-| `SEC`   | `Security Related` | purple `#a78bfa` |
-| `ATM`   | `ATM/Communication or Ground Issue` | sky `#38bdf8` |
-| `LOC-I` | `Loss of Control - Inflight` | red `#ef4444` |
-| `TURB`  | `Turbulence Encounter` | green `#4ade80` |
-| `RE`    | `Runway Excursion` | rose `#f43f5e` |
-| `USOS`  | `Undershoot/Overshoot` | amber `#fb923c` |
-| `OTHR`  | `Other` | slate `#94a3b8` |
-| `UNK`   | `Other` | slate `#94a3b8` |
+| `MAC`    | `Mid-Air Collision` | red `#f87171` |
+| `CFIT`   | `Controlled Flight Into or Toward Terrain` | orange `#f97316` |
+| `GCOL`   | `Ground Collision` | yellow `#facc15` |
+| `SEC`    | `Security Related` | purple `#a78bfa` |
+| `ATM`    | `ATM/Communication or Ground Issue` | sky `#38bdf8` |
+| `LOC-I`  | `Loss of Control - Inflight` | red `#ef4444` |
+| `TURB`   | `Turbulence Encounter` | green `#4ade80` |
+| `RE`     | `Runway Excursion` | rose `#f43f5e` |
+| `USOS`   | `Undershoot/Overshoot` | amber `#fb923c` |
+| `RI`     | `Runway Incursion` | fuchsia `#e879f9` |
+| `SCF-NP` | `System/Component Failure or Malfunction (Non-Powerplant)` | cyan `#67e8f9` |
+| `RAMP`   | `Ground Handling / Ramp Occurrence` | yellow `#fde68a` |
+| `OTHR`   | `Other` | slate `#94a3b8` |
+| `UNK`    | `Other` | slate `#94a3b8` |
 
 > `OTHR` and `UNK` are treated identically — both mean the model could not confidently assign a specific category. Use `OTHR` as the preferred code; `UNK` is accepted for models whose label set includes it.
 

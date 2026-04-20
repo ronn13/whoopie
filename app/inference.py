@@ -49,17 +49,20 @@ L3_LABELS = []
 
 # Full descriptions for the identified ADREP classes based on ECCAIRS taxonomy
 L3_LABEL_FULL = {
-    "MAC": "Mid-Air Collision",
-    "CFIT": "Controlled Flight Into or Toward Terrain",
-    "GCOL": "Ground Collision",
-    "SEC": "Security Related",
-    "ATM": "ATM/Communication or Ground Issue",
-    "LOC-I": "Loss of Control - Inflight",
-    "TURB": "Turbulence Encounter",
-    "RE": "Runway Excursion",
-    "USOS": "Undershoot/Overshoot",
-    "OTHR": "Other",
-    "UNK":  "Other",
+    "MAC":    "Mid-Air Collision",
+    "CFIT":   "Controlled Flight Into or Toward Terrain",
+    "GCOL":   "Ground Collision",
+    "SEC":    "Security Related",
+    "ATM":    "ATM/Communication or Ground Issue",
+    "LOC-I":  "Loss of Control - Inflight",
+    "TURB":   "Turbulence Encounter",
+    "RE":     "Runway Excursion",
+    "USOS":   "Undershoot/Overshoot",
+    "RI":     "Runway Incursion",
+    "SCF-NP": "System/Component Failure or Malfunction (Non-Powerplant)",
+    "RAMP":   "Ground Handling / Ramp Occurrence",
+    "OTHR":   "Other",
+    "UNK":    "Other",
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -88,7 +91,7 @@ def load_models():
         L3_LABELS = [id2cat[str(i)] for i in range(len(id2cat))]
     else:
         print("Warning: id2cat.json not found, falling back to default 8 classes.")
-        L3_LABELS = ['ATM', 'CFIT', 'GCOL', 'LOC-I', 'MAC', 'OTHR', 'SEC', 'TURB']
+        L3_LABELS = ['CFIT', 'MAC', 'LOC-I', 'RI', 'GCOL', 'SCF-NP', 'SEC', 'ATM', 'TURB', 'RAMP', 'UNK']
 
     print("⏳ Loading Layer-1 NER model …")
     _l1_tokenizer = AutoTokenizer.from_pretrained(L1_MODEL_NAME)

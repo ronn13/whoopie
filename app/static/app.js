@@ -264,17 +264,20 @@ function resetNer() {
 
 // ── Classifier rendering ──────────────────────────────────────────────────────
 const CATEGORY_COLOR = {
-  'MAC':   '#f87171',
-  'CFIT':  '#f97316',
-  'GCOL':  '#facc15',
-  'SEC':   '#a78bfa',
-  'LOC-I': '#ef4444',
-  'ATM':   '#38bdf8',
-  'TURB':  '#4ade80',
-  'USOS':  '#fb923c',
-  'RE':    '#f43f5e',
-  'OTHR':  '#94a3b8',
-  'UNK':   '#94a3b8',
+  'MAC':    '#f87171',
+  'CFIT':   '#f97316',
+  'GCOL':   '#facc15',
+  'SEC':    '#a78bfa',
+  'LOC-I':  '#ef4444',
+  'ATM':    '#38bdf8',
+  'TURB':   '#4ade80',
+  'USOS':   '#fb923c',
+  'RE':     '#f43f5e',
+  'RI':     '#e879f9',
+  'SCF-NP': '#67e8f9',
+  'RAMP':   '#fde68a',
+  'OTHR':   '#94a3b8',
+  'UNK':    '#94a3b8',
 };
 
 /**
