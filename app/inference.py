@@ -261,7 +261,7 @@ def classify_occurrence(text: str) -> dict:
 
     probabilities = [
         {
-            "class":      L3_LABEL_FULL.get(L3_LABELS[i], L3_LABELS[i]),
+            "class":      L3_LABELS[i],
             "confidence": round(probs[i], 4),
         }
         for i in range(len(L3_LABELS))
