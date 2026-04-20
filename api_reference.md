@@ -88,7 +88,7 @@ Content-Type: application/json
 
 ## Canonical Label Table
 
-All 10 accepted classes. Your model must use **exactly** these strings — casing and punctuation included.
+All 11 accepted classes. Your model must use **exactly** these strings — casing and punctuation included.
 
 | ICAO Code (`top_5[i].class`) | Full Description (`prediction.top_class`) | UI Badge Colour |
 |---|---|---|
@@ -102,6 +102,9 @@ All 10 accepted classes. Your model must use **exactly** these strings — casin
 | `RE`    | `Runway Excursion` | rose `#f43f5e` |
 | `USOS`  | `Undershoot/Overshoot` | amber `#fb923c` |
 | `OTHR`  | `Other` | slate `#94a3b8` |
+| `UNK`   | `Other` | slate `#94a3b8` |
+
+> `OTHR` and `UNK` are treated identically — both mean the model could not confidently assign a specific category. Use `OTHR` as the preferred code; `UNK` is accepted for models whose label set includes it.
 
 ---
 

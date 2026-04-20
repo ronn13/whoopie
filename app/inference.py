@@ -58,7 +58,8 @@ L3_LABEL_FULL = {
     "TURB": "Turbulence Encounter",
     "RE": "Runway Excursion",
     "USOS": "Undershoot/Overshoot",
-    "OTHR": "Other"
+    "OTHR": "Other",
+    "UNK":  "Other",
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
