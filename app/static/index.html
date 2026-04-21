@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SafeAeroBERT — Aviation Incident Analyzer</title>
+  <title>DeepLearning Aviation Report Classifier — Aviation Incident Analyzer</title>
   <meta name="description" content="Interactive demo of the SafeAeroBERT two-layer pipeline: NER entity extraction and damage severity classification for aviation incident narratives." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,15 +18,11 @@
     <div class="logo-group">
       <div class="logo-icon">✈</div>
       <div>
-        <h1 class="logo-title">SafeAeroBERT</h1>
+        <h1 class="logo-title">DeepLearning Aviation Report Classifier</h1>
         <span class="logo-sub">Aviation Incident Analyzer · Demo</span>
       </div>
     </div>
-    <div class="header-badges">
-      <span class="badge badge-l1">Layer 1 · NER</span>
-      <span class="badge badge-l3">Layer 3 · Classifier</span>
-      <span class="badge badge-acc">88% Accuracy</span>
-    </div>
+    
   </div>
 </header>
 
@@ -141,7 +137,6 @@
       <div class="card-header">
         <span class="card-icon">🏷</span>
         <h2 class="card-title">SafeAeroBERT</h2>
-        <span class="model-tag">Layer 3</span>
       </div>
       
       <div id="classify-loading" class="loading hidden" style="text-align:center; padding:2rem 0;">
@@ -170,7 +165,6 @@
       <div class="card-header">
         <span class="card-icon">🏷</span>
         <h2 class="card-title" id="model-2-title">Model 2</h2>
-        <span class="model-tag" id="model-2-tag">external</span>
       </div>
 
       <div id="classify-loading-2" class="loading hidden" style="text-align:center; padding:2rem 0;">
@@ -206,7 +200,6 @@
       <div class="card-header">
         <span class="card-icon">🏷</span>
         <h2 class="card-title" id="model-3-title">Model 3</h2>
-        <span class="model-tag" id="model-3-tag">external</span>
       </div>
 
       <div id="classify-loading-3" class="loading hidden" style="text-align:center; padding:2rem 0;">
@@ -243,17 +236,6 @@
 
 <!-- ═══════════════════════════  METRICS FOOTER  ═══════════════════════════ -->
 <section class="metrics-strip">
-  <div class="metrics-inner">
-    <div class="metric-item">
-      <span class="metric-val">88%</span>
-      <span class="metric-lbl">Weighted Accuracy</span>
-    </div>
-    <div class="metric-sep"></div>
-    <div class="metric-item">
-      <span class="metric-val">8</span>
-      <span class="metric-lbl">Occurrence Classes</span>
-    </div>
-  </div>
 </section>
 
 <footer class="site-footer">

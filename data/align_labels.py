@@ -3,34 +3,46 @@ import json
 
 df = pd.read_csv('data/raw/data_aviation.csv')
 
-def map_event_to_adrep(event_str):
-    if not isinstance(event_str, str):
+def map_event_to_adrep(event_str, narrative_str=''):
+    # Combine events + narrative for keyword matching
+    combined = ' '.join([
+        event_str.upper() if isinstance(event_str, str) else '',
+        narrative_str.upper() if isinstance(narrative_str, str) else '',
+    ])
+
+    if not combined.strip():
         return 'UNK'
-    event_str = event_str.upper()
-    
-    # Priority mapping based on keywords
-    if 'CFIT' in event_str or 'CFTT' in event_str:
+
+    # Priority mapping based on keywords (events take priority, narrative catches the rest)
+    if 'CFIT' in combined or 'CFTT' in combined:
         return 'CFIT'
-    elif 'NMAC' in event_str or 'AIRBORNE CONFLICT' in event_str:
+    elif ('NMAC' in combined or 'AIRBORNE CONFLICT' in combined
+          or 'NEAR MID-AIR' in combined or 'NEAR MIDAIR' in combined
+          or 'NEAR MISS' in combined or 'NEAR-MISS' in combined
+          or 'NEAR COLLISION' in combined or 'TCAS' in combined
+          or 'RESOLUTION ADVISORY' in combined or 'TRAFFIC ADVISORY' in combined
+          or 'TRAFFIC ALERT' in combined):
         return 'MAC'
-    elif 'GROUND CONFLICT' in event_str or 'GROUND INCURSION' in event_str:
-        return 'GCOL' # Ground Collision
-    elif 'RUNWAY EXCURSION' in event_str:
+    elif 'GROUND CONFLICT' in combined or 'GROUND INCURSION' in combined:
+        return 'GCOL'
+    elif 'RUNWAY EXCURSION' in combined:
         return 'RE'
-    elif 'LOSS OF AIRCRAFT CONTROL' in event_str:
+    elif 'LOSS OF AIRCRAFT CONTROL' in combined or 'LOSS OF CONTROL' in combined:
         return 'LOC-I'
-    elif 'UNAUTHORIZED FLIGHT' in event_str or 'AIRSPACE VIOLATION' in event_str or 'UAS' in event_str:
-        return 'SEC' # Security related / Unauthorized UAS
-    elif 'WEATHER' in event_str or 'TURBULENCE' in event_str:
+    elif 'UNAUTHORIZED FLIGHT' in combined or 'AIRSPACE VIOLATION' in combined or 'UAS' in combined:
+        return 'SEC'
+    elif 'WEATHER' in combined or 'TURBULENCE' in combined:
         return 'TURB'
-    elif 'ATC ISSUE' in event_str or 'CLEARANCE' in event_str:
-        return 'ATM' # ATM/COM related
-    elif 'ALTITUDE OVERSHOOT' in event_str or 'UNDERSHOOT' in event_str:
+    elif 'ATC ISSUE' in combined or 'CLEARANCE' in combined:
+        return 'ATM'
+    elif 'ALTITUDE OVERSHOOT' in combined or 'UNDERSHOOT' in combined:
         return 'USOS'
     else:
         return 'OTHR'
 
-df['adrep_category'] = df['events'].apply(map_event_to_adrep)
+df['adrep_category'] = df.apply(
+    lambda row: map_event_to_adrep(row['events'], row['narrative_1']), axis=1
+)
 
 print("Mapped categories count:")
 print(df['adrep_category'].value_counts())

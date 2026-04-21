@@ -1,0 +1,12 @@
+# Reuse the existing image — all heavy deps (torch, transformers, flask) already installed.
+# Only re-copy the updated application code.
+FROM safeaerobert-demo:latest
+
+WORKDIR /app
+
+# Overwrite with updated server.py (model display names for slots 2 & 3)
+COPY app/server.py app/inference.py ./
+COPY app/static/ ./static/
+
+EXPOSE 8080
+CMD ["python", "server.py"]

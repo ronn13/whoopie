@@ -1,0 +1,114 @@
+{
+  "experiment_name": "E1_improved_D173",
+  "model_name": "NASA-AIML/MIKA_SafeAeroBERT",
+  "dataset": "C:\\Users\\WANJIRU\\Desktop\\Intro to Deep Learning\\Project\\data\\reference\\labeled_hard_cases.csv",
+  "categories_ref": "C:\\Users\\WANJIRU\\Desktop\\Intro to Deep Learning\\Project\\data\\reference\\adrep_categories.json",
+  "num_samples": 173,
+  "num_classes": 11,
+  "class_names": [
+    "CFIT",
+    "MAC",
+    "LOC-I",
+    "RI",
+    "GCOL",
+    "SCF-NP",
+    "SEC",
+    "ATM",
+    "TURB",
+    "RAMP",
+    "UNK"
+  ],
+  "class_full_names": {
+    "CFIT": "Controlled Flight Into or Toward Terrain",
+    "MAC": "Airprox / ACAS Alert / Loss of Separation / Near Midair Collision",
+    "LOC-I": "Loss of Control - Inflight",
+    "RI": "Runway Incursion",
+    "GCOL": "Ground Collision",
+    "SCF-NP": "System/Component Failure or Malfunction (Non-Powerplant)",
+    "SEC": "Security Related",
+    "ATM": "ATM / CNS",
+    "TURB": "Turbulence Encounter",
+    "RAMP": "Ground Handling",
+    "UNK": "Unknown or Undetermined"
+  },
+  "taxonomy_total_categories": 37,
+  "split": {
+    "train": 138,
+    "val": 35,
+    "test_size": 0.2,
+    "stratified": true,
+    "singleton_classes": [
+      "TURB"
+    ],
+    "seed": 42
+  },
+  "hyperparameters": {
+    "epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "grad_clip": 1.0,
+    "dropout": 0.2,
+    "early_stop_patience": 3,
+    "max_len": 256
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.4083,
+      "val_loss": 2.3706,
+      "val_macro_f1": 0.151
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.3342,
+      "val_loss": 2.3099,
+      "val_macro_f1": 0.1117
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.2986,
+      "val_loss": 2.2762,
+      "val_macro_f1": 0.2088
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.2102,
+      "val_loss": 2.2493,
+      "val_macro_f1": 0.266
+    },
+    {
+      "epoch": 5,
+      "train_loss": 2.0981,
+      "val_loss": 2.2181,
+      "val_macro_f1": 0.2584
+    },
+    {
+      "epoch": 6,
+      "train_loss": 2.0027,
+      "val_loss": 2.1921,
+      "val_macro_f1": 0.332
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.9736,
+      "val_loss": 2.1611,
+      "val_macro_f1": 0.3052
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.8885,
+      "val_loss": 2.1433,
+      "val_macro_f1": 0.3052
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.7929,
+      "val_loss": 2.1358,
+      "val_macro_f1": 0.3052
+    }
+  ],
+  "best_epoch": 6,
+  "best_val_macro_f1": 0.332
+}
